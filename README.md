@@ -2,7 +2,7 @@
 
 Uploads screenshots (and built static sites) from a GitHub Actions workflow to your [CirCI](https://circi.dev) server, a self-hosted visual regression testing service. It runs [`@circi/cli`](https://www.npmjs.com/package/@circi/cli) for you, sets outputs for the build, and writes a job summary with a link to it.
 
-The step-by-step guide, with the project token, branch protection and the CirCI check, is at [circi.dev/ci/github-actions/](https://circi.dev/ci/github-actions/).
+Workflow examples, the first build and the merge gate are at [circi.dev/ci/ci-examples/](https://circi.dev/ci/ci-examples/); the CirCI check on pull requests is at [circi.dev/integrations/github/](https://circi.dev/integrations/github/).
 
 ## Usage
 
